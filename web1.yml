@@ -1,0 +1,9 @@
+---
+- hosts: qaserver
+  become: true
+  
+  roles:
+    - apache
+    - java
+  
+
